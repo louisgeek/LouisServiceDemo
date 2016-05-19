@@ -6,6 +6,7 @@ import android.os.IBinder;
 import android.util.Log;
 
 /**
+ *  IntentService是继承与Service并处理异步请求的一个类,在IntentService中有 一个工作线程来处理耗时操作,请求的Intent记录会加入队列
  * Created by louisgeek on 2016/5/19.
  */
 public class MyIntentService extends IntentService {

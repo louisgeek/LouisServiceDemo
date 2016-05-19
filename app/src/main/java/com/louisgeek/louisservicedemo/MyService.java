@@ -9,6 +9,8 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 /**
+ *
+ * 前台服务的实现举例： Notification
  * Created by louisgeek on 2016/5/19.
  */
 public class MyService extends Service {
